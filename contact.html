@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .announcment {
+            color: white;
+            margin: 0;
+            background-color: darkblue;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .announcment-text {
+            color: white;
+            text-decoration: none; /* remove underline from link */
+        }
+        main {
+            width: 70%;
+            margin: auto;
+            background-color: whitesmoke;
+            padding: 15px;
+        }
+        nav {
+            align-items: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            justify-content: center;
+            display: flex;
+            gap: 10px;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+        }
+        a {
+            text-decoration: none;
+        }
+        footer {
+            width: 100%;
+            padding: 15px;
+            background-color: darkblue;
+            justify-items: center;
+            margin-top: 15px;
+        }
+        .footer-text {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h5 class="announcment">
+            <a href="#" class="announcment-text">
+            This is an announcment
+            </a>
+        </h5>
+        <nav>
+            <a href="https://www.cstad.edu.kh" target="_blank">
+                <img src="img/istad-lms-logo.webp" alt="Logo">
+            </a>
+            <a href="contact.html" target="_blank">Contact</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="login.html" target="_blank">Login</a>
+            <a href="tel:078776993">Call Now</a>
+            <a href="mailto:chanchhay07@gmail.com">Send Mail</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact us</h1>
+    </main>
+    <footer>
+        <p class="footer-text">Copyright @ ISTAD 2025</p>
+    </footer>
+</body>
+</html>
