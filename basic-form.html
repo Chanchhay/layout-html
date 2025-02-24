@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <style>
+        form {
+            width: 320px;
+            box-shadow: 0 0 1px 1px lightgray;
+            margin: auto;
+            padding: 15px;
+        }
+
+        .control {
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .submit {
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        .control2 {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <div class="control">
+            <label for="username">Username:</label>
+            <input id="username" type="text" placeholder="Enter username bro">
+        </div>
+
+        <div class="control">
+            <label id="pw" for="pw">Password:</label>
+            <input type="password" placeholder="dak password moa bro">
+        </div>
+
+        <div class="control2">
+            <input type="checkbox">
+            <a href="#">Remember password?</a>
+        </div>
+        <input type="submit" value="Login" class="submit">
+    </form>
+</body>
+
+</html>

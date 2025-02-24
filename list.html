@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListDemo</title>
+    <style>
+        ol {
+            list-style: upper-alpha;
+        }
+        ul {
+            list-style: square;
+        }
+        .myStyle {
+            list-style: none;
+            background-color: white;
+            padding: 15px;
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 1px 1px whitesmoke;
+        }
+        .my-item {
+            padding: 10px;
+            background-color: white;
+            width: 200px;
+        }
+        .my-item:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul class="myStyle">
+        <li class="my-item">apple</li>
+        <li class="my-item">banana</li>
+        <li class="my-item">car</li>
+    </ul>
+    <!-- Order list -->
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>car</li>
+    </ol>
+    <!-- Unorder List -->
+    <ul>
+        <li>hi</li>
+        <li>hello</li>
+        <li>goodbye</li>
+    </ul>
+
+    <dl> <!--  definition list -->
+        <dt>Apple</dt> <!--  definition term -->
+            <dd>The Fruit that we can eat</dd> <!--  definition description -->
+        <dt>Car</dt>
+            <dd>Machine we can drive</dd>
+    </dl>
+</body>
+</html>
